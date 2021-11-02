@@ -25,4 +25,4 @@ def hello_world():
         total_loose = int(num_loose)*value_loose
         
         final_result = total_regular + total_relaxed + total_skinny + total_slim + total_loose
-        return render_template('index.html', href2='regular='+num_regular+', relaxed='+num_relaxed+', skinny='+skinny+', slim='+num_slim+', loose='+num_loose+', Total = '+str(final_result))
+        return render_template('index.html', href2='regular='+num_regular+', relaxed='+num_relaxed+', skinny='+num_skinny+', slim='+num_slim+', loose='+num_loose+', Total = '+str(final_result))
